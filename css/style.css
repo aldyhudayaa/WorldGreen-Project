@@ -1,0 +1,73 @@
+body{
+  font-family: 'Product Sans';
+}
+.custom-section{
+  border-bottom:3px solid gold;
+}
+body {
+  background: #f1f8f5; /* Warna latar belakang sama dengan login */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  max-width: 400px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+}
+.btn-green {
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 12px;
+  font-weight: 600;
+  background: #28a745; /* Warna hijau dari login page */
+  border: none;
+  transition: 0.3s;
+}
+.btn-green:hover {
+  background: #218838; /* Hijau lebih gelap saat hover */
+}
+h2 {
+  font-weight: bold;
+  color: #28a745;
+}
+.form-label {
+  font-weight: 600;
+  color: #444;
+}
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+.text-center a {
+  font-weight: 600;
+  color: #28a745;
+  text-decoration: none;
+}
+.text-center a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  background-color: #28a745; /* Warna navbar sama dengan login */
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+footer {
+  font-size: 16px;
+  font-weight: 500;
+}
+footer a:hover {
+  text-decoration: underline;
+}
